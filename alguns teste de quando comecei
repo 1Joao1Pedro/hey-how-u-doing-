@@ -1,0 +1,72 @@
+#nota1 = float (input ('qual sua primeira nota ?'))
+#nota2 = float (input('qual sua segunda nota ?'))
+#total = nota1 + nota2 
+#media = total / 2
+#print (f'sua primeira nota foi {nota1} \n sua segunda nota foi {nota2} \n a soma das duas é {total} \n sua media é {media}')
+
+#n1 = int (input ('me diga um valor em metros para eu transformar em centimetros '))
+#n2 = n1 * 1000
+#print (f'o valor em centimetros é {n2}')
+
+#n1 = int (input('me diga um numero e eu direi sua taboada até o 10'))
+#n2 = n1 * 1 , n1 * 2 , n1 * 3 , n1 * 4 , n1 * 5 , n1 * 6 , n1 * 7, n1 * 8 , n1 * 9 , n1 * 10  
+#print (f'sua taboada é {n2}')
+#n1 = float (input ('quantos reais você tem agora?'))
+#n2 =  n1 / 3.27
+#print(f'com {n1} reais voce pode comprar {n2} dolares ')
+
+#n1 = int (input ('quantos metros de largura tem sua parede ? '))
+#n2 = int (input (' e quantos de altura ela tem ? '))
+#n3 = n1 * n2 
+#n4 = n3 / 2 
+#print (f'sua parede tem de largura {n1}\n de altura {n2} \n sua area é {n3}\n e para pintar uma area de {n3} sera necessario {n4} litros de tinta')
+
+#n1 = float (input ('qual o preço desse produto ?'))
+#n2 = n1 * 5
+#n3 = n2 / 100 
+#n4 = n1 - n3
+#print (f'tivemos uma promoção!! o seu valor que era {n1} agora está por {n4}')
+
+#n1 = float (input ('qual seu salario atual ?'))
+#n2 = n1 * 10 
+#n3 = n2 / 100 
+#n4 = n3 + n1 
+#print (f'seu salario era {n1} porem com reajustes agora ele esta {n4}')
+
+#n1 = int (input ('diga um numero'))
+#print(f'o numero que voce escolheu foi {n1} \n o numero que vem antes é o {n1-1} e o que vem depois é o {n1+1}')
+
+#n1 = int (input('diga um numero'))
+#print (f'o numero escolhido foi {n1} o seu dobro é {n1*2} o seu triplo é {n1*3} e sua raiz vale {n1**(1/2)}')
+
+#n1 = float (input('diga sua primeira nota '))
+#n2 = float (input('diga sua segunda nota'))
+#n3 = (n1 + n2) / 2
+#print (f'sua primeira nota foi {n1} a segunda foi {n2} e sua media é {n3}')
+
+#n1 = float (input('fale um numero que voce quer transformar sua escala'))
+#print (f'o numero que voce escolheu em km foi {n1} \n em metro ele é {n1 / 1000} ')
+
+#n1 = int (input ('diga um numero que eu direi sua taboada ate o 10'))
+#print (f'o numero que voce escolheu foi {n1} \n {n1*1}....{n1*2}')
+
+#n1 = float (input('quantos reais voce tem agora ?'))
+#n2 = n1 / 3.27
+#print (f'com {n1} voce consegue comprar {n2:.2f} dolares')
+
+#n1 = float (input ('qual a largura da sua parede ?'))
+#n2 = float (input ('qual a altura da sua parede ? '))
+#print (f'a area da sua parede é de {n1*n2} por tanto voce precisara de {n1*n2/2} litros de tinta')
+
+#n1 = float (input('digete o valor do produto'))
+#print (f'o seu produto teve um desconto de 5% o valor agora está {n1-(n1*5/100)}')
+
+#n1 = float (input ('qual o seu salario ?'))
+#print(f'o seu salario era {n1} porem com reajustes ele ficou {n1+(n1*15/100)}')
+
+#n1 = float (input ('quantos graus esta atualmente ?'))
+#print(f'convertendo a temperatura atual de {n1}C para {32+(9*n1/5)}')
+
+n1 = int(input('quantos dias voce usou o carro?'))
+n2 = float (input('quantos km voce rodou no carro?'))
+print(f'contando que a diaria é 60 ou seja {(n1*60)+(n2*0.15)}') 
